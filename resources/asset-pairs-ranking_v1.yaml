@@ -1,0 +1,178 @@
+assetPairs:
+  # priority 0
+  - name: BTC-USD
+    priority: 0
+    rank: 1
+  - name: BTC-USDC
+    priority: 0
+    rank: 2
+  - name: ETH-BTC
+    priority: 0
+    rank: 3
+  - name: ETH-USD
+    priority: 0
+    rank: 4
+  - name: ETH-USDC
+    priority: 0
+    rank: 5
+  - name: LTC-BTC
+    priority: 0
+    rank: 6
+  - name: LTC-USD
+    priority: 0
+    rank: 7
+  - name: XRP-BTC
+    priority: 0
+    rank: 8
+  - name: XRP-USD
+    priority: 0
+    rank: 9
+  - name: XLM-USD
+    priority: 0
+    rank: 10
+  # priority 1
+  - name: BAT-USDC
+    priority: 1
+    rank: 11
+  - name: BCH-BTC
+    priority: 1
+    rank: 12
+  - name: BTC-EUR
+    priority: 1
+    rank: 13
+  - name: BTC-GBP
+    priority: 1
+    rank: 14
+  - name: EOS-BTC
+    priority: 1
+    rank: 15
+  - name: EOS-USD
+    priority: 1
+    rank: 16
+  - name: ETC-BTC
+    priority: 1
+    rank: 17
+  - name: ETC-USD
+    priority: 1
+    rank: 18
+  - name: LINK-USD
+    priority: 1
+    rank: 19
+  - name: REP-BTC
+    priority: 1
+    rank: 20
+  - name: REP-USD
+    priority: 1
+    rank: 21
+  - name: XTZ-BTC
+    priority: 1
+    rank: 22
+  - name: XTZ-USD
+    priority: 1
+    rank: 23
+  # priority 2
+  - name: ALGO-USD
+    priority: 2
+    rank: 24
+  - name: ATOM-BTC
+    priority: 2
+    rank: 25
+  - name: ATOM-USD
+    priority: 2
+    rank: 26
+  - name: BAT-ETH
+    priority: 2
+    rank: 27
+  - name: BCH-EUR
+    priority: 2
+    rank: 28
+  - name: BCH-GBP
+    priority: 2
+    rank: 29
+  - name: BCH-USD
+    priority: 2
+    rank: 30
+  - name: CVC-USDC
+    priority: 2
+    rank: 31
+  - name: DAI-USDC
+    priority: 2
+    rank: 32
+  - name: DASH-BTC
+    priority: 2
+    rank: 33
+  - name: DASH-USD
+    priority: 2
+    rank: 34
+  - name: DNT-USDC
+    priority: 2
+    rank: 35
+  - name: EOS-EUR
+    priority: 2
+    rank: 36
+  - name: ETC-EUR
+    priority: 2
+    rank: 37
+  - name: ETC-GBP
+    priority: 2
+    rank: 38
+  - name: ETH-DAI
+    priority: 2
+    rank: 39
+  - name: ETH-EUR
+    priority: 2
+    rank: 40
+  - name: ETH-GBP
+    priority: 2
+    rank: 41
+  - name: GNT-USDC
+    priority: 2
+    rank: 42
+  - name: KNC-BTC
+    priority: 2
+    rank: 43
+  - name: KNC-USD
+    priority: 2
+    rank: 44
+  - name: LINK-ETH
+    priority: 2
+    rank: 45
+  - name: LOOM-USDC
+    priority: 2
+    rank: 46
+  - name: LTC-EUR
+    priority: 2
+    rank: 47
+  - name: LTC-GBP
+    priority: 2
+    rank: 48
+  - name: MANA-USDC
+    priority: 2
+    rank: 49
+  - name: OXT-USD
+    priority: 2
+    rank: 50
+  - name: XLM-BTC
+    priority: 2
+    rank: 51
+  - name: XLM-EUR
+    priority: 2
+    rank: 52
+  - name: XRP-EUR
+    priority: 2
+    rank: 53
+  - name: ZEC-BTC
+    priority: 2
+    rank: 54
+  - name: ZEC-USDC
+    priority: 2
+    rank: 55
+  - name: ZRX-BTC
+    priority: 2
+    rank: 56
+  - name: ZRX-EUR
+    priority: 2
+    rank: 57
+  - name: ZRX-USD
+    priority: 2
+    rank: 58
