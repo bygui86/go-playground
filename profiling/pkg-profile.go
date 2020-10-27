@@ -16,9 +16,6 @@ func main() {
 			profile.ProfilePath(".")).
 		Stop()
 
-	prof := profile.Profile{}
-	profile.Start()
-
 	counter := 0
 	for {
 		fmt.Printf("Counting: %d\n", counter)

@@ -1,9 +1,8 @@
 package dumper
 
 import (
+	"log"
 	"os"
-
-	"gitlab.com/swissblock/common-lib/logger"
 )
 
 // Dumper -
@@ -14,7 +13,7 @@ type Dumper struct {
 
 // NewDumper -
 func NewDumper(topics []string, fileName string, proto bool, json bool) *Dumper {
-	logger.Log.Info("Setup new Dumper...")
+	log.Println("Setup new Dumper...")
 
 	return &Dumper{
 		Config: NewConfig(topics, fileName, proto, json),
@@ -23,7 +22,7 @@ func NewDumper(topics []string, fileName string, proto bool, json bool) *Dumper 
 
 // Open -
 func (d *Dumper) Open() error {
-	logger.Log.Info("Open Dumper...")
+	log.Println("Open Dumper...")
 
 	if d.Config.Proto {
 		f, err := os.OpenFile(d.Config.FileName+".proto-test", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
@@ -44,8 +43,7 @@ func (d *Dumper) Open() error {
 
 // Write -
 func (d *Dumper) Write(data []byte) error {
-	logger.Log.Info("Write message to dumper")
-	logger.Log.Debugf("Write message to dumper: %s", data)
+	log.Println("Write message to dumper: %s", data)
 
 	_, err := d.File.Write(data)
 	return err

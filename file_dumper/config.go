@@ -1,6 +1,8 @@
 package dumper
 
-import "gitlab.com/swissblock/common-lib/logger"
+import (
+	"log"
+)
 
 // Config -
 type Config struct {
@@ -13,7 +15,7 @@ type Config struct {
 // NewConfig - Setup a new Dumper configuration
 func NewConfig(topics []string, fileName string, proto bool, json bool) *Config {
 
-	logger.Log.Debug("Setup new Dumper config...")
+	log.Println("Setup new Dumper config...")
 
 	return &Config{
 		Topics:   topics,
