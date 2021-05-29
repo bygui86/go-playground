@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bygui86/multi-profile"
+	profile "github.com/bygui86/multi-profile/v2"
 )
 
 func main() {
 	fmt.Println("Profiling example")
 
 	defer profile.
-		CPUProfile(&profile.ProfileConfig{}).
+		CPUProfile(&profile.Config{}).
 		Start().
 		Stop()
 
