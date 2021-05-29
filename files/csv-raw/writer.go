@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	filePath = "./result.csv"
+	filePath = "./result.csv-raw"
 )
 
 var (

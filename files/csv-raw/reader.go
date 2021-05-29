@@ -12,7 +12,7 @@ import (
 
 const (
 	basePath    = "."
-	csvFilePath = "resources/asset-pairs_ranking.csv"
+	csvFilePath = "resources/asset-pairs_ranking.csv-raw"
 )
 
 type AssetPairRanking struct {
