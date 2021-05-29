@@ -12,7 +12,9 @@ type Metadata struct {
 
 func main() {
 	jsonMap()
+
 	fmt.Println()
+
 	plainMap()
 }
 
